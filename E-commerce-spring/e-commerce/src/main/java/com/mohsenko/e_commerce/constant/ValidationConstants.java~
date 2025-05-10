@@ -1,0 +1,8 @@
+package com.mohsenko.e_commerce.constant;
+
+public class validationConstants {
+    // prevent instantiation
+    private validationConstants() {}
+
+    public final static String TRIMMEDSIZE_MESSAGE = "%s must be in characters range (%s -> %s), edge spaces or sequence spaces not calculated";
+}
